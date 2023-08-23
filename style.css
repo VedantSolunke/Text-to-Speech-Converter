@@ -14,20 +14,23 @@
   justify-content: center;
   flex-direction: column;
   color: white;
+  padding: 20px; 
 }
 
 .hero h1 {
-  font-size: 45px;
+  font-size: 28px; 
   font-weight: 600;
-  margin-top: -50px;
-  margin-bottom: 50px;
+  margin-top: -20px; 
+  margin-bottom: 30px; 
 }
+
 .hero h1 span {
   color: #ff2963;
 }
 
 textarea {
-  width: 600px;
+  width: 100%; 
+  max-width: 600px; 
   height: 250px;
   background: #fcecd7;
   color: gray;
@@ -46,9 +49,10 @@ textarea::placeholder {
 }
 
 .row {
-  width: 600px;
+  width: 100%; 
+  max-width: 600px; 
   display: flex;
-  align-items: center;
+  flex-direction: column; 
   gap: 20px;
 }
 
@@ -71,7 +75,8 @@ button img {
 }
 
 select {
-  flex: 1;
+  width: 100%; 
+  max-width: 600px; 
   color: #fff;
   background: #6562a8;
   height: 50px;
